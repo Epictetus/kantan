@@ -21,5 +21,5 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
 
   # gem.add_development_dependency 'rspec'
-  gem.add_runtime_dependency 'trollop'
+  gem.add_runtime_dependency 'thor'
 end
