@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'shrink'
+require 'trollop'
+
+puts "Hello from kantan!  You'll be seeing a lot from me soon"
